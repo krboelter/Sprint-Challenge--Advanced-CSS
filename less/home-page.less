@@ -4,6 +4,10 @@
 
   .intro {
 
+    .space-img{
+      border-radius: 8px;
+    }
+
     h2 {
       padding: 15px;
     }
@@ -58,6 +62,15 @@
       }
 
       .btn {
+        .button(@btn-bg-color, @sea-shell, 5px, 10px 18px, 1.8rem);
+        width: 35%;
+        text-align: center;
+        font-weight: bold;
+
+        &:hover{
+          background-color: @sea-shell;
+          color: @btn-bg-color;
+        }
       }
     }
 

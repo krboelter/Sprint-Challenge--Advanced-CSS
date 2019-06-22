@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Answer: An adaptive website is where you use rem and percentages to allow for sizing of the window.  Responsive website would be making a website specifically for mobile or tablet versions by setting a media query that creates a max (or min) width for the styles to "switch".
 
 2. Describe what it means to be mobile first vs desktop first.
+Answer: Mobile first is designing the website using a media query first.  It optimizes your website for mobile (you use min-width). Then you design for bigger screens.  Desktop is the opposite of that, mobile comes after desktop style design.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+Answer: When you set the font size to 62.5% you end up with 10px for all font sizes.  Then, it makes using rem easy (1.8 rem would be simply 18px).
 
 4. How would you describe preprocessing to someone new to CSS?
+Answer: Preprocessing allows you to design the styles of a website more like you would normally program (you can nest your code and use variables and mix-ins).  Then, you use a compiler to compile the code you wrote and it puts it into the css file you created.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+Answer: My favorite concept is nesting.  I think it is nice to be able to not have to create classes for everything.  I think the thing that gives me the most trouble is using the mobile mix in to maximize the efficiency of the less compiler.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

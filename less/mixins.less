@@ -1,1 +1,16 @@
 // Mixins Here
+
+.nav-a-properties(@font-size, @color, @padding-size){
+    text-decoration: none;
+    font-size: @font-size;
+    color: @color;
+    padding: @padding-size;
+}
+
+.button(@color, @text-color, @radius, @padding-size, @font-size){
+    background-color: @color;
+    color: @text-color;
+    border-radius: @radius;
+    padding: @padding-size;
+    font-size: @font-size;
+}

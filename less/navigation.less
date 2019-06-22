@@ -1,1 +1,22 @@
-// Navigation code here
+.title-header{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+
+    h1{
+        font-size: 5rem;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+
+        a{
+            .nav-a-properties(1.8rem, @header-font-color, 10px 20px);
+            margin-bottom: 10px;
+        }
+    }
+}
